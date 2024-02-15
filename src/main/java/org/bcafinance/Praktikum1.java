@@ -6,7 +6,6 @@ public class Praktikum1 {
     public static void main(String[] args) {
 //        String a = "Jquery 1995@v1.0"; // return 529
 //        String b = "Bebas Lepas@"; // return 238
-
         Scanner sc = new Scanner(System.in);
         System.out.print("Masukkan Kata : ");
         String input = sc.nextLine();
