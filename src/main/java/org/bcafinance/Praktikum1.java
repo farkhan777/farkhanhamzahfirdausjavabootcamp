@@ -8,17 +8,16 @@ public class Praktikum1 {
 //        String b = "Bebas Lepas@"; // return 238
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Masukkan Kata : ");
+        System.out.print("Masukkan Kata : ");
         String input = sc.nextLine();
 
         int temp = 0;
         for (int i = 0; i < input.length(); i++) {
             char charTemp = input.charAt(i);
-            int charToAschii = (int) charTemp;
-            if (charToAschii < 97) {
+            if (charTemp < 97) {
                 temp += charTemp;
             }
         }
-        System.out.println("Hasil :" + temp);
+        System.out.print("Hasil : " + temp);
     }
 }
