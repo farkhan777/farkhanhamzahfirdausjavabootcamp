@@ -1,4 +1,4 @@
-package org.bcafinance;
+package org.bcafinance.praktikum;
 
 import java.util.Scanner;
 
